@@ -28,27 +28,26 @@ public class testSinglyLinkedList {
 }
 
 /*
- Perubahan dari kode test sebelumnya:
+Perubahan dari kode test sebelumnya:
  
- 1. Ditambahkan komentar "isi list sekarang (head -> tail): 6,5,4,3,2,1"
-    karena addFirst() menambah elemen baru di depan (head), sehingga urutan
-    list kebalikan dari urutan pemanggilan addFirst.
+1. Ditambahkan komentar "isi list sekarang (head -> tail): 6,5,4,3,2,1"
+   karena addFirst() menambah elemen baru di depan (head), sehingga urutan
+   list kebalikan dari urutan pemanggilan addFirst.
  
- 2. get(2): komentar hasil diperbaiki dari 3 menjadi 4
-    (index 2 dari head pada list 6,5,4,3,2,1 adalah 4).
+2. get(2): komentar hasil diperbaiki dari 3 menjadi 4
+   (index 2 dari head pada list 6,5,4,3,2,1 adalah 4).
  
- 3. get(12): dilakukan try-catch (IndexOutOfBoundsException) agar program
-    tidak berhenti dan baris-baris setelahnya tetap dijalankan.
+3. get(12): dilakukan try-catch (IndexOutOfBoundsException) agar program
+   tidak berhenti dan baris-baris setelahnya tetap dijalankan.
  
- 4. indexOf(4): komentar hasil diperbaiki dari 5 menjadi 2
-    (angka 4 berada di index 2 dari head).
+4. indexOf(4): komentar hasil diperbaiki dari 5 menjadi 2
+   (angka 4 berada di index 2 dari head).
  
- 5. printReverse(): komentar hasil diperbaiki dari 6,5,4,3,2,1 menjadi
-    1,2,3,4,5,6, karena dicetak dari tail ke head.
+5. printReverse(): komentar hasil diperbaiki dari 6,5,4,3,2,1 menjadi
+   1,2,3,4,5,6, karena dicetak dari tail ke head.
 
- 6. toArray(): komentar hasil diperbaiki dari [6,5,4,3,2,1] menjadi
-    [6, 5, 4, 2, 1], karena angka 3 sudah dihapus oleh remove(3).
-    kemudian karena println(array) mencetak alamat objek bukan isinya jadi hasil yang keluar adalah alamat . Untuk menampilkan isi
-    array gunakan Arrays.toString(linkedList.toArray()) dengan
-    import java.util.Arrays.
- */
+6. toArray(): komentar hasil diperbaiki dari [6,5,4,3,2,1] menjadi
+   [6, 5, 4, 2, 1], karena angka 3 sudah dihapus oleh remove(3).
+   Kemudian karena println(array) mencetak alamat objek bukan isinya jadi 
+   hasil yang keluar adalah alamat [Ljava.lang.Object;@14dad5dc 
+*/
